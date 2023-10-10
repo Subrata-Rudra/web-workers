@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <title>Multithreading in JavaScript</title>
+  </head>
+  <body>
+    <h1>Multithreading in JavaScript using Worker Thread</h1>
+    <div class="para">
+      <p>
+        We know, JavaScript is Single Threaded and the thread is called the
+        <b>Main Thread</b>. So we can execute single task at a time
+      </p>
+      <p>
+        But we can achieve parallelism like Multithreading in executing task in JavaScript using the
+        <b>Worker Thread</b>.
+      </p>
+      <p>
+        But Worker Thread can't access the <b>DOM</b>. So, we can use
+        <b>Worker Thread</b> to do heavy <b>CPU-intensive Task</b> in
+        background.
+      </p>
+    </div>
+    <div class="btn">
+      <button id="w_btn1">Worker Thread 1</button>
+      <button id="w_btn2">Worker Thread 2</button>
+      <button id="m_btn">Main Thread</button>
+    </div>
+    <div id="demo">
+      <h5>This Div Will Be Affected By Main Thread of JavaScript</h5>
+    </div>
+  </body>
+</html>

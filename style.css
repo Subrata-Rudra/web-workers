@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+#demo {
+  margin: auto;
+  padding: 1rem;
+  width: 40vw;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.5rem;
+  background-color: black;
+}
+
+h1 {
+  margin-bottom: 4rem;
+  padding: 1rem;
+}
+
+.para {
+  padding: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.btn {
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+}
+
+#w_btn1 {
+  margin-right: 2rem;
+  background-color: rgb(36, 176, 8);
+}
+
+#w_btn2 {
+  margin-right: 2rem;
+  background-color: rgb(8, 168, 158);
+}
+
+#m_btn {
+  margin-left: 2rem;
+  background-color: rgb(234, 25, 25);
+}
+
+button {
+  padding: 0.5rem 0.7rem;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  border-radius: 0.4rem;
+}
+
+@media screen and (max-width: 600px) {
+  button {
+    font-size: .7rem;
+    padding: 0.4rem 0.4rem;
+  }
+}
